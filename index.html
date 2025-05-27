@@ -44,7 +44,7 @@
 10. favicon
 11. 404 page
 12. i tried to make custom cursor (inspired by journey) but it sadly didnt work
-
+13. i also tried to make a modal, like a pop-up, but it also didn't work.
 -->
 
 
@@ -101,7 +101,7 @@
 
                 <!--directory -->
             <section id="directory" class="mt-8">
-                <h1 class="text-center text-xl bebas-neue-bold">Staff Directory</h2>
+                <h1 class="text-center text-3xl bebas-neue-bold">Staff Directory</h2>
                 <ul class="list-disc list-inside text-center">     
                     <h2 class="text-center sm:text-lg md:text-xl lg:text-2xl bebas-neue">
                     <li>Superintendent: Mr. Ultimate RIZZLER</li>
@@ -116,7 +116,7 @@
 
                 <!-- blog card -->
             <section id="card" class="mt-8">
-                <h1 class="text-center text-2xl bebas-neue-bold">Featured Article</h1>
+                <h1 class="text-center text-3xl bebas-neue-bold">Featured Article</h1>
                 <div class="container mx-auto p-6 center max-w-md"> 
                     <div class="items-center bg-white shadow-md border border-gray-200 rounded-lg max-w-sm mb-5">
                         <img class="sm:w-16 md:w-48 lg:w-64 xl:96 2xl:128 rounded-t-lg " src="apostrohe.jpg" alt="APOSTROPHE">
@@ -132,27 +132,30 @@
             </section>
                 
                 <!-- contact -->
-            <section id="contact" class="mt-8">
-                <h1 class="text-center text-2xl bebas-neue-bold">Contact Us</h1>
-                <form class="max-w-md mx-auto mb-[50px] bg-white p-6 rounded-lg shadow-md">
-                    <div class="mb-4">
-                        <h3 class="block text-slate-950">Name</h3>
+            <section id="contact" class="mt-8 items-center">
+                <h1 class="text-center text-3xl bebas-neue-bold">Contact Us</h1>
+                <form class="max-w-md mx-auto bg-white p-6 rounded-lg shadow-md items-center">
+                    <div class="mb-4  items-center">
+                        <h3 class="text-slate-950">Name</h3>
                         <input type="text" id="name" class="text-slate-950 w-full p-2 border border-gray-300 rounded" required>
                     </div>
                     <div class="mb-4">
-                        <h3 class="block text-slate-950">Email</h3>
+                        <h3 class="text-slate-950">Email</h3>
                         <input type="email" id="email" class="text-slate-950 w-full p-2 border border-gray-300 rounded" required>
                     </div>
                     <div class="mb-4">
-                        <h3 class="block text-slate-950">Message</h3>
+                        <h3 class="text-slate-950">Message</h3>
                         <textarea id="message" rows="4" class="text-slate-950 w-full p-2 border border-gray-300 rounded"></textarea>
                     </div>
-                    <button type="submit" class="bg-cyan-600 dark:bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-cyan-700 dark:hover:bg-blue-700">
+                    <button type="submit" class="bg-cyan-600 dark:bg-blue-600 text-white font-bold ml-[130px] py-2 px-4 rounded hover:bg-cyan-700 dark:hover:bg-blue-700">
                         Send Message
                     </button>
+                    <h3 class=" text-slate-950 ml-[10]"> Or you can email the staff by clicking this button below: </h3>
+                    <button class="bg-cyan-600 dark:bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-cyan-700 dark:hover:bg-blue-700 mt-2 ml-[150px]">
+                        <a href="mailto:hyperbole_humans@rizzlers.com">Click Me!</a>
                 </form>
 
-                <h1 class=""> Or you can email us at <a href="mailto:about:blank" class="text-cyan-600 dark:text-blue-600 hover:underline dark:hover:text-blue-400">
+                
 
             </section>
 
