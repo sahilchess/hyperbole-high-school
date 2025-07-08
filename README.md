@@ -1,3 +1,3 @@
-# boba-and-beverages
+# hyperbole-high-school ![Hackatime](https://hackatime-badge.hackclub.com/U05D9BJD4UC/hyperbole-high-school)
 
 website for grub......
